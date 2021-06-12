@@ -1,4 +1,4 @@
 fn main() {
     println!("Hello, world!");
-    println!("first app check")
+    println!("first app check");
 }
