@@ -16,4 +16,6 @@ fn main() {
     struct Structure(i32);
     //let y = Structure(3);
     println!("This struct '{}' will print...", 3i32);
+    let pi = 3.141592;
+    println!("Pi is roughly {0:.3}", pi)
 }
