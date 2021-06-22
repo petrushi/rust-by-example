@@ -34,7 +34,7 @@ impl Display for Color {
 
 fn main() {
     for number in [1, 8, 24].iter() {
-        println!("{:b}", number)
+        println!("{:b}", *number)
     }
     for city in [
         City { name: "Dublin", lat: 53.347778, lon: -6.259722 },
