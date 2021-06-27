@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 enum WebEvent {
     PageLoad,
     PageUnload,
@@ -33,18 +35,15 @@ fn main() {
     inspect(unload);
 }
 
-#[allow(dead_code)]
 enum VeryLongNameOfEnumOfThingsToDoWithNumbers {
     Add,
     Substract,
 }
 
 //creating alias
-#[allow(dead_code)]
 type Operations = VeryLongNameOfEnumOfThingsToDoWithNumbers;
 
 impl VeryLongNameOfEnumOfThingsToDoWithNumbers {
-    #[allow(dead_code)]
     fn run(&self, x: i32, y: i32) -> i32 {
         match self {
             Self::Add => x + y, // self is alias
