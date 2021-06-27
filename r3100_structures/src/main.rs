@@ -92,7 +92,7 @@ fn main() {
     let start_point = Point { x: 2.0, y: 2.0 };
     let third_rectangle = square(start_point, 10.0);
     println!(
-        "point of rectangle are {:?} {:?} {:?} {:?}",
+        "points of rectangle are {:?} {:?} {:?} {:?}",
         third_rectangle.top_left.x,
         third_rectangle.bottom_right.x,
         third_rectangle.bottom_right.y,
